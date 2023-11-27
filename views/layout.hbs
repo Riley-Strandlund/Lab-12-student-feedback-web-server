@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Feedback</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    
+    <link href="stylesheets/feedback-styles.css" type="text/css" rel="stylesheet">
+</head>
+<body class="mx-5">
+
+{{{ body }}} <!-- 3 curly braces on purpose.-->
+
+<hr><!-- <hr> or horizontal rule creates a divide between paragraphs on a page -->
+<p>A project for web client and server programming</p><!-- The <hr> and <p> will show up on every template that
+    passes through !body! kind of hardcoded in there. I like it.-->
+
+
+</body>
+</html>
+
+
+{{!-- body has 3 meanings here
+
+HTTP Post request bodies - the data from the form
+
+HTML body tag = containing context page
+
+Handlebars {{{ body }}} - special placeholder for another template
+
+<!--layout.hbs is required bc Handlebars will always return this template whatever goes in the {{{ body }}} placeholder --}}
+
+
+

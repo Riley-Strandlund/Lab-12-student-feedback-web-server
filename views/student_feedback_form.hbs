@@ -1,0 +1,44 @@
+
+    <form action="/submit-feedback" method="POST" >
+        <div class="bg-info-subtle p-3 text-center">
+            <h1>Please provide feedback.</h1> 
+        </div>  
+        <div class="row">
+            <div class="col-md-6 mt-3">
+                <h2>Instructions</h2>
+
+                <p>As one of our students, your thoughts, feedback and comments are important to us.</p>
+                <p>Please send them using this form.</p>
+                <p>If you would like us to follow up with you, include your contact information.</p>
+            </div><!--1ST COLUMN-->
+            <div class="col-md-6 mt-3">   
+                <div class="form-floating">   
+                    <input class="form-control" name="name" type="text" id="name-input" style="width:45%">
+                    <label for="name-input">Name</label>
+                </div><br>
+
+                <div class="form-floating mb-3">
+                    <input class="form-control" name="email" type="email" id="email-input" style="width:45%">
+                    <label for="email-input">Email</label>
+                </div>
+        
+                <div class="form-floating mb-3">
+                    <textarea class="form-control" rows="12" cols="100" id="comments" name="comments" required></textarea>
+                    <label class="comments" for="comments">Comments</label>
+                </div>
+                <label class="m-1" id="student_label">Are you a student?</label>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="Answer" id="Yes" value="yes"><!--Adding 'checked' at the end checks the radio button it is typed on.-->
+                    <label class="form-check-label" for="Yes"> Yes</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="Answer" id="No" value="no">
+                    <label class="form-check-label" for="No">No</label><br><br>
+                </div>
+
+                <input class="btn btn-primary" type="submit" id="SubmitBtn" name="submit-button"></label>
+            </div><!--2ND COLUMN-->
+        </div>
+
+    </form>  
+        
